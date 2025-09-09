@@ -12,3 +12,6 @@
     I am aware that I will have to reactivate this upon re-entry to VS Code
 8. Formatting changes with README
 9. Pushed all changes
+
+# P3: Python Data Project
+1. Added `requests` and `openpyxl` to my `requirements.txt` file
