@@ -343,3 +343,10 @@ seaborn
 
 # For request validation and serialization in FastAPI (5-10 MB)
 # pydantic     
+
+# HTTP requests made simple
+requests
+
+# Primary library for Excel (both .xls and .xlsx); handles formulas; charts, formatting (~8 MB)
+# Used by pandas and other libraries.
+openpyxl
