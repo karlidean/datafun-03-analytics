@@ -28,3 +28,8 @@
    1. This file is now `genesis.txt`
 3. Add - Commit - Push
    
+## Worked with Gathering JSON File
+1. Implemented example script from the example Repo
+2. Modified the script to use a file that fetched data regarding the starts in the sky, their positions, their names, and more.
+   1. This is saved as `stars.json` and is in `karlidean.data`
+3. Add - Commit - Push
