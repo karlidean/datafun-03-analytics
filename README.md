@@ -18,6 +18,13 @@
 
 ## Worked With Gathering CSV File
 1. Implemented example Script from example repo.
-2. Modified the Script to use a file that read Division 1 women's volleyball data from 2019.
+2. Modified the Script to use a file that read Division 1 women's volleyball game score data from 2019.
    1. This Script fetched the CSV and wrote a file `2019_NCAA_Womens_Volleyball.csv` and implemented it into folder `karlidean_data`
 3. Add - Commit - Push
+
+## Worked with Gathering TXT File
+1. Implemented example script from the example Repo
+2. Modified the Script to use a file that fetched Genesis from the Bible and write a new .txt into `karlidean_data`
+   1. This file is now `genesis.txt`
+3. Add - Commit - Push
+   
