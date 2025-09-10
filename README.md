@@ -39,3 +39,9 @@
 2. Modified the script to use a file that fetched data on the technology sales, dates, amounts, and more via a link and wrote a `.xlsx` file that contains the contents of that from the link. `karlidean_get_excel.py`
    1. This script fetched the CSV and wrote a file `ssles.xlsx` and implemented it into folder `karlidean_data`
 3. Add - Commit - Push
+
+## Processing the `.xlsx` Fiile
+1. Implemented the example processing script from the example processing repo.
+2. Modified the script to use the fetched data file `sales.xlsx` and pull the number of how many sales were from the Central Region. In the file, you can find this in column B.
+3. This processing script analyzed the `.xlsx` , counted the number of Central Region sales, and wrote a file called `excel_sales_central_count.txt` and put it in a new folder called `karlidean_processed`
+4. Add - Commit - Push

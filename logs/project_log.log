@@ -48,3 +48,7 @@
 2025-09-09 20:19:24.742 | INFO     | __main__:write_excel_file:80 - Writing Excel data to karlidean_data\sales.xlsx...
 2025-09-09 20:19:24.745 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to karlidean_data\sales.xlsx
 2025-09-09 20:19:24.746 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as sales.xlsx
+2025-09-10 17:54:18.132 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-10 17:54:18.132 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-09-10 17:54:18.170 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
+2025-09-10 17:54:18.170 | INFO     | __main__:<module>:79 - Excel processing complete.
