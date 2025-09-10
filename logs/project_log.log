@@ -52,3 +52,8 @@
 2025-09-10 17:54:18.132 | INFO     | __main__:<module>:77 - Starting Excel processing...
 2025-09-10 17:54:18.170 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
 2025-09-10 17:54:18.170 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-09-10 18:15:53.075 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-10 18:16:18.075 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-10 18:16:18.075 | INFO     | __main__:<module>:90 - Starting CSV processing...
+2025-09-10 18:16:18.143 | INFO     | __main__:process_csv_file:83 - Processed CSV file: karlidean_data\2019_NCAA_Womens_Volleyball.csv, Results saved to: karlidean_processed\home_court_advantage.txt
+2025-09-10 18:16:18.144 | INFO     | __main__:<module>:92 - CSV processing complete.

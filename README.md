@@ -45,3 +45,9 @@
 2. Modified the script to use the fetched data file `sales.xlsx` and pull the number of how many sales were from the Central Region. In the file, you can find this in column B.
 3. This processing script analyzed the `.xlsx` , counted the number of Central Region sales, and wrote a file called `excel_sales_central_count.txt` and put it in a new folder called `karlidean_processed`
 4. Add - Commit - Push
+
+## Processing the `.csv` Fiile
+1. Implemented the example processing script from the example processing repo.
+2. Modified the script to use the fetched data file `2019_NCAA_Womens_Volleyball.csv` and find the percentage of times the home team won during the 2019 NCAA Women's Volleyball Season.
+3. This processing script analyzed the `.csv` , counted the number of Central Region sales, and wrote a file called `home_court_advantage.txt` and put it in a folder called `karlidean_processed`
+4. Add - Commit - Push
