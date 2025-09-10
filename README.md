@@ -16,20 +16,26 @@
 # P3: Python Data Project
 1. Added `requests` and `openpyxl` to my `requirements.txt` file
 
-## Worked With Gathering CSV File
-1. Implemented example Script from example repo.
-2. Modified the Script to use a file that read Division 1 women's volleyball game score data from 2019.
-   1. This Script fetched the CSV and wrote a file `2019_NCAA_Womens_Volleyball.csv` and implemented it into folder `karlidean_data`
+## Fetching the `.csv` File
+1. Implemented example script from example repo.
+2. Modified the script to use a file that fetched 2019 Division 1 women's volleyball game score data via a link and wrote a `.csv` file that contains the contents from the link. `karlidean_get_csv.py`
+   1. This script wrote file `2019_NCAA_Womens_Volleyball.csv` and implemented it into folder `karlidean_data`
 3. Add - Commit - Push
 
-## Worked with Gathering TXT File
-1. Implemented example script from the example Repo
-2. Modified the Script to use a file that fetched Genesis from the Bible and write a new .txt into `karlidean_data`
-   1. This file is now `genesis.txt`
+## Fetching the `.txt` File
+1. Implemented example script from example repo.
+2. Modified the script to use a file that fetched Genesis from the Bible via a link and wrote a `.txt` file that contains the contents of that from the link. `karlidean_get_text.py`
+   1. This script fetched the CSV and wrote a file `genesis.txt` and implemented it into folder `karlidean_data`
 3. Add - Commit - Push
    
-## Worked with Gathering JSON File
-1. Implemented example script from the example Repo
-2. Modified the script to use a file that fetched data regarding the starts in the sky, their positions, their names, and more.
-   1. This is saved as `stars.json` and is in `karlidean.data`
+## Fetching the `.json` File
+1. Implemented example script from example repo.
+2. Modified the script to use a file that fetched data on the stars in the night sky via a link and wrote a `.json` file that contains the contents of that from the link. `karlidean_get_json.py`
+   1. This script fetched the CSV and wrote a file `stars.json` and implemented it into folder `karlidean_data`
+3. Add - Commit - Push
+
+## Fetching the `.xlsx` File
+1. Implemented example script from example repo.
+2. Modified the script to use a file that fetched data on the technology sales, dates, amounts, and more via a link and wrote a `.xlsx` file that contains the contents of that from the link. `karlidean_get_excel.py`
+   1. This script fetched the CSV and wrote a file `ssles.xlsx` and implemented it into folder `karlidean_data`
 3. Add - Commit - Push
