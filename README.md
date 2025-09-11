@@ -63,3 +63,9 @@
 2. Modified the script to use the fetched data file `genesis.txt` and understand how many times "God" was said in the Bible's Genesis 1.
 3. This processing script analyzed the `.txt` , counting the number of times Genesis 1 said "God", put it in  `text_God_word_count.txt` and put it in a folder called `karlidean_processed`
 4. Add - Commit - Push
+
+## Writing the `.py` File
+1. I imported libraries I figured would be necessary to create a Script that ran other scripts. I felt that would make the most sense.
+2. I understood my variables (other scripts) I'd need to complete this
+3. I took to outside sources to be able to concoct a script that fetched, wrote, and processed my data.
+4. Add - Commit - Push
