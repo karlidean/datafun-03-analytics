@@ -57,3 +57,9 @@
 2. Modified the script to use the fetched data file `stars.json` and understand the different spectral groupings for stars, counting up which stars used what spectral grouping notation.
 3. This processing script analyzed the `.json` , counted stars by their spectral grouping, and wrote a file called `stars_by_spectral_group.txt` and put it in a folder called `karlidean_processed`
 4. Add - Commit - Push
+
+## Processing the `.txt` Fiile
+1. Implemented the example processing script from the example processing repo.
+2. Modified the script to use the fetched data file `genesis.txt` and understand how many times "God" was said in the Bible's Genesis 1.
+3. This processing script analyzed the `.txt` , counting the number of times Genesis 1 said "God", put it in  `text_God_word_count.txt` and put it in a folder called `karlidean_processed`
+4. Add - Commit - Push

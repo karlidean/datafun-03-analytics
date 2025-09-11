@@ -69,3 +69,7 @@
 2025-09-10 18:50:26.315 | INFO     | __main__:<module>:122 - Starting star JSON processing...
 2025-09-10 18:50:26.389 | INFO     | __main__:process_json_file:115 - Processed JSON file: karlidean_data\stars.json, results saved to: karlidean_processed\stars_by_spectral_group.txt
 2025-09-10 18:50:26.389 | INFO     | __main__:<module>:124 - Processing complete.
+2025-09-10 18:58:35.367 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-10 18:58:35.367 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-09-10 18:58:35.369 | INFO     | __main__:process_text_file:58 - Processed text file: karlidean_data\genesis.txt, Word count saved to: karlidean_processed\text_God_word_count.txt
+2025-09-10 18:58:35.369 | INFO     | __main__:<module>:67 - Text processing complete.
