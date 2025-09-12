@@ -67,5 +67,6 @@
 ## Writing the `.py` File
 1. I imported libraries I figured would be necessary to create a Script that ran other scripts. I felt that would make the most sense.
 2. I understood my variables (other scripts) I'd need to complete this
-3. I took to outside sources to be able to concoct a script that fetched, wrote, and processed my data.
-4. Add - Commit - Push
+3. I took to outside sources to be able to concoct a script that fetched, wrote, and processed my other scripts all in this one.
+4. My goal was to create 1 Script that runs 8.
+5. Add - Commit - Push

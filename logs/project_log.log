@@ -166,3 +166,299 @@
 2025-09-11 17:45:54.880 | INFO     | __main__:<module>:67 - Text processing complete.
 2025-09-11 17:45:54.909 | INFO     | __main__:run_script:74 - Completed karlidean_process_text.py (exit code 0).
 2025-09-11 17:45:54.909 | INFO     | __main__:main:121 - All scripts ran successfully.
+2025-09-12 07:44:47.778 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:44:47.779 | INFO     | __main__:main:123 - Initializing Combined Runner for all scripts...
+2025-09-12 07:44:47.779 | INFO     | __main__:main:124 - Project root: C:\Repos\datafun-03-analytics
+2025-09-12 07:44:47.780 | INFO     | __main__:main:125 - Run directory (CWD for children): C:\Repos\datafun-03-analytics
+2025-09-12 07:44:47.781 | INFO     | __main__:main:134 - (1/8) karlidean_get_csv.py
+2025-09-12 07:44:47.781 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_csv.py
+2025-09-12 07:44:47.781 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:44:48.900 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:44:48.901 | INFO     | __main__:main:99 - Starting CSV fetch demonstration...
+2025-09-12 07:44:48.901 | INFO     | __main__:fetch_csv_file:56 - Fetching CSV data from https://raw.githubusercontent.com/openvolley/R_workshop_2022/refs/heads/master/example_data/NCAA_D1W_2019.csv...
+2025-09-12 07:44:50.169 | INFO     | __main__:write_csv_file:81 - Writing CSV data to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.188 | INFO     | __main__:write_csv_file:85 - SUCCESS: CSV data written to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.188 | INFO     | __main__:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as 2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.256 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:48.898 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:44:50.257 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:48.900 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:44:50.257 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:48.901 | INFO     | __main__:main:99 - Starting CSV fetch demonstration...
+2025-09-12 07:44:50.258 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:48.901 | INFO     | __main__:fetch_csv_file:56 - Fetching CSV data from https://raw.githubusercontent.com/openvolley/R_workshop_2022/refs/heads/master/example_data/NCAA_D1W_2019.csv...
+2025-09-12 07:44:50.258 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:50.169 | INFO     | __main__:write_csv_file:81 - Writing CSV data to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.258 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:50.188 | INFO     | __main__:write_csv_file:85 - SUCCESS: CSV data written to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.259 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:44:50.188 | INFO     | __main__:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as 2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:44:50.259 | INFO     | __main__:run_script:113 - Completed karlidean_get_csv.py (exit code 0).
+2025-09-12 07:44:50.260 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:44:50.261 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:44:50.261 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:45:00.262 | INFO     | __main__:main:134 - (2/8) karlidean_get_excel.py
+2025-09-12 07:45:00.267 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_excel.py
+2025-09-12 07:45:00.269 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:45:01.075 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:01.075 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-12 07:45:01.075 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx...
+2025-09-12 07:45:01.865 | INFO     | __main__:write_excel_file:80 - Writing Excel data to karlidean_data\sales.xlsx...
+2025-09-12 07:45:01.866 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to karlidean_data\sales.xlsx
+2025-09-12 07:45:01.867 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as sales.xlsx
+2025-09-12 07:45:01.921 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.073 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:45:01.922 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.075 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:01.922 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.075 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-12 07:45:01.923 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.075 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx...
+2025-09-12 07:45:01.923 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.865 | INFO     | __main__:write_excel_file:80 - Writing Excel data to karlidean_data\sales.xlsx...
+2025-09-12 07:45:01.924 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.866 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to karlidean_data\sales.xlsx
+2025-09-12 07:45:01.924 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:45:01.867 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as sales.xlsx
+2025-09-12 07:45:01.924 | INFO     | __main__:run_script:113 - Completed karlidean_get_excel.py (exit code 0).
+2025-09-12 07:45:01.925 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:45:01.926 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:45:01.926 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:45:11.927 | INFO     | __main__:main:134 - (3/8) karlidean_get_json.py
+2025-09-12 07:45:11.928 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_json.py
+2025-09-12 07:45:11.929 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:45:12.629 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:12.629 | INFO     | __main__:main:96 - Starting JSON fetch demonstration...
+2025-09-12 07:45:12.629 | INFO     | __main__:fetch_json_file:55 - Fetching JSON data from https://brettonw.github.io/YaleBrightStarCatalog/bsc5.json...
+2025-09-12 07:45:14.344 | INFO     | __main__:write_json_file:79 - Writing JSON data to karlidean_data\stars.json...
+2025-09-12 07:45:15.167 | INFO     | __main__:write_json_file:83 - SUCCESS: JSON data written to karlidean_data\stars.json
+2025-09-12 07:45:15.176 | INFO     | __main__:fetch_json_file:59 - SUCCESS: JSON file fetched and saved as stars.json
+2025-09-12 07:45:15.234 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:12.627 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:45:15.235 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:12.629 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:15.235 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:12.629 | INFO     | __main__:main:96 - Starting JSON fetch demonstration...
+2025-09-12 07:45:15.236 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:12.629 | INFO     | __main__:fetch_json_file:55 - Fetching JSON data from https://brettonw.github.io/YaleBrightStarCatalog/bsc5.json...
+2025-09-12 07:45:15.236 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:14.344 | INFO     | __main__:write_json_file:79 - Writing JSON data to karlidean_data\stars.json...
+2025-09-12 07:45:15.237 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:15.167 | INFO     | __main__:write_json_file:83 - SUCCESS: JSON data written to karlidean_data\stars.json
+2025-09-12 07:45:15.237 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:45:15.176 | INFO     | __main__:fetch_json_file:59 - SUCCESS: JSON file fetched and saved as stars.json
+2025-09-12 07:45:15.238 | INFO     | __main__:run_script:113 - Completed karlidean_get_json.py (exit code 0).
+2025-09-12 07:45:15.238 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:45:15.239 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:45:15.240 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:45:25.241 | INFO     | __main__:main:134 - (4/8) karlidean_get_text.py
+2025-09-12 07:45:25.241 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_text.py
+2025-09-12 07:45:25.241 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:45:25.951 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:25.951 | INFO     | __main__:main:97 - Starting text fetch demonstration...
+2025-09-12 07:45:25.951 | INFO     | __main__:fetch_txt_file:56 - Fetching text data from https://people.sc.fsu.edu/~jburkardt/datasets/text/genesis.txt...
+2025-09-12 07:45:26.966 | INFO     | __main__:write_txt_file:80 - Writing data to karlidean_data\genesis.txt...
+2025-09-12 07:45:26.969 | INFO     | __main__:write_txt_file:84 - SUCCESS: Data written to karlidean_data\genesis.txt
+2025-09-12 07:45:26.969 | INFO     | __main__:fetch_txt_file:60 - SUCCESS: Text file fetched and saved as genesis.txt
+2025-09-12 07:45:27.047 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:25.949 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:45:27.048 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:25.951 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:27.048 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:25.951 | INFO     | __main__:main:97 - Starting text fetch demonstration...
+2025-09-12 07:45:27.049 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:25.951 | INFO     | __main__:fetch_txt_file:56 - Fetching text data from https://people.sc.fsu.edu/~jburkardt/datasets/text/genesis.txt...
+2025-09-12 07:45:27.049 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:26.966 | INFO     | __main__:write_txt_file:80 - Writing data to karlidean_data\genesis.txt...
+2025-09-12 07:45:27.049 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:26.969 | INFO     | __main__:write_txt_file:84 - SUCCESS: Data written to karlidean_data\genesis.txt
+2025-09-12 07:45:27.050 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:45:26.969 | INFO     | __main__:fetch_txt_file:60 - SUCCESS: Text file fetched and saved as genesis.txt
+2025-09-12 07:45:27.050 | INFO     | __main__:run_script:113 - Completed karlidean_get_text.py (exit code 0).
+2025-09-12 07:45:27.051 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:45:27.052 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:45:27.053 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:45:37.054 | INFO     | __main__:main:134 - (5/8) karlidean_process_csv.py
+2025-09-12 07:45:37.054 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_csv.py
+2025-09-12 07:45:37.056 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:45:37.541 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:37.541 | INFO     | __main__:<module>:90 - Starting CSV processing...
+2025-09-12 07:45:37.676 | INFO     | __main__:process_csv_file:83 - Processed CSV file: karlidean_data\2019_NCAA_Womens_Volleyball.csv, Results saved to: karlidean_processed\home_court_advantage.txt
+2025-09-12 07:45:37.676 | INFO     | __main__:<module>:92 - CSV processing complete.
+2025-09-12 07:45:37.710 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:45:37.539 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:45:37.711 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:45:37.541 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:37.711 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:45:37.541 | INFO     | __main__:<module>:90 - Starting CSV processing...
+2025-09-12 07:45:37.712 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:45:37.676 | INFO     | __main__:process_csv_file:83 - Processed CSV file: karlidean_data\2019_NCAA_Womens_Volleyball.csv, Results saved to: karlidean_processed\home_court_advantage.txt
+2025-09-12 07:45:37.712 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:45:37.676 | INFO     | __main__:<module>:92 - CSV processing complete.
+2025-09-12 07:45:37.712 | INFO     | __main__:run_script:113 - Completed karlidean_process_csv.py (exit code 0).
+2025-09-12 07:45:37.713 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:45:37.714 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:45:37.714 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:45:47.715 | INFO     | __main__:main:134 - (6/8) karlidean_process_excel.py
+2025-09-12 07:45:47.717 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_excel.py
+2025-09-12 07:45:47.718 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:45:50.995 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:50.995 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-09-12 07:45:51.056 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
+2025-09-12 07:45:51.057 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-09-12 07:45:51.120 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:45:50.993 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:45:51.120 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:45:50.995 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:45:51.121 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:45:50.995 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-09-12 07:45:51.121 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:45:51.056 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
+2025-09-12 07:45:51.121 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:45:51.057 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-09-12 07:45:51.122 | INFO     | __main__:run_script:113 - Completed karlidean_process_excel.py (exit code 0).
+2025-09-12 07:45:51.122 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:45:51.123 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:45:51.124 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:46:01.124 | INFO     | __main__:main:134 - (7/8) karlidean_process_json.py
+2025-09-12 07:46:01.125 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_json.py
+2025-09-12 07:46:01.125 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:46:01.726 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:46:01.726 | INFO     | __main__:<module>:122 - Starting star JSON processing...
+2025-09-12 07:46:01.874 | INFO     | __main__:process_json_file:115 - Processed JSON file: karlidean_data\stars.json, results saved to: karlidean_processed\stars_by_spectral_group.txt
+2025-09-12 07:46:01.875 | INFO     | __main__:<module>:124 - Processing complete.
+2025-09-12 07:46:01.910 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:46:01.725 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:46:01.910 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:46:01.726 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:46:01.910 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:46:01.726 | INFO     | __main__:<module>:122 - Starting star JSON processing...
+2025-09-12 07:46:01.911 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:46:01.874 | INFO     | __main__:process_json_file:115 - Processed JSON file: karlidean_data\stars.json, results saved to: karlidean_processed\stars_by_spectral_group.txt
+2025-09-12 07:46:01.912 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:46:01.875 | INFO     | __main__:<module>:124 - Processing complete.
+2025-09-12 07:46:01.913 | INFO     | __main__:run_script:113 - Completed karlidean_process_json.py (exit code 0).
+2025-09-12 07:46:01.914 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:46:01.915 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:46:01.915 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:46:11.916 | INFO     | __main__:main:134 - (8/8) karlidean_process_text.py
+2025-09-12 07:46:11.917 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_text.py
+2025-09-12 07:46:11.918 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:46:12.407 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:46:12.408 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-09-12 07:46:12.436 | INFO     | __main__:process_text_file:58 - Processed text file: karlidean_data\genesis.txt, Word count saved to: karlidean_processed\text_God_word_count.txt
+2025-09-12 07:46:12.436 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-09-12 07:46:12.468 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:46:12.404 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:46:12.470 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:46:12.407 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:46:12.470 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:46:12.408 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-09-12 07:46:12.471 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:46:12.436 | INFO     | __main__:process_text_file:58 - Processed text file: karlidean_data\genesis.txt, Word count saved to: karlidean_processed\text_God_word_count.txt
+2025-09-12 07:46:12.472 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:46:12.436 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-09-12 07:46:12.472 | INFO     | __main__:run_script:113 - Completed karlidean_process_text.py (exit code 0).
+2025-09-12 07:46:12.473 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:46:12.474 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:46:12.474 | INFO     | __main__:main:157 - All scripts ran successfully.
+2025-09-12 07:49:03.186 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:03.187 | INFO     | __main__:main:123 - Initializing Combined Runner for all scripts...
+2025-09-12 07:49:03.188 | INFO     | __main__:main:124 - Project root: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:03.188 | INFO     | __main__:main:125 - Run directory (CWD for children): C:\Repos\datafun-03-analytics
+2025-09-12 07:49:03.189 | INFO     | __main__:main:134 - (1/8) karlidean_get_csv.py
+2025-09-12 07:49:03.189 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_csv.py
+2025-09-12 07:49:03.189 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:03.798 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:03.799 | INFO     | __main__:main:99 - Starting CSV fetch demonstration...
+2025-09-12 07:49:03.799 | INFO     | __main__:fetch_csv_file:56 - Fetching CSV data from https://raw.githubusercontent.com/openvolley/R_workshop_2022/refs/heads/master/example_data/NCAA_D1W_2019.csv...
+2025-09-12 07:49:04.631 | INFO     | __main__:write_csv_file:81 - Writing CSV data to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.671 | INFO     | __main__:write_csv_file:85 - SUCCESS: CSV data written to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.672 | INFO     | __main__:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as 2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.750 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:03.797 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:49:04.751 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:03.798 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:04.751 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:03.799 | INFO     | __main__:main:99 - Starting CSV fetch demonstration...
+2025-09-12 07:49:04.751 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:03.799 | INFO     | __main__:fetch_csv_file:56 - Fetching CSV data from https://raw.githubusercontent.com/openvolley/R_workshop_2022/refs/heads/master/example_data/NCAA_D1W_2019.csv...
+2025-09-12 07:49:04.752 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:04.631 | INFO     | __main__:write_csv_file:81 - Writing CSV data to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.752 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:04.671 | INFO     | __main__:write_csv_file:85 - SUCCESS: CSV data written to karlidean_data\2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.752 | WARNING  | __main__:run_script:109 - [karlidean_get_csv.py][stderr] 2025-09-12 07:49:04.672 | INFO     | __main__:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as 2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.753 | INFO     | __main__:run_script:113 - Completed karlidean_get_csv.py (exit code 0).
+2025-09-12 07:49:04.754 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv
+2025-09-12 07:49:04.755 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: 
+2025-09-12 07:49:04.755 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:49:14.756 | INFO     | __main__:main:134 - (2/8) karlidean_get_excel.py
+2025-09-12 07:49:14.757 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_excel.py
+2025-09-12 07:49:14.758 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:15.490 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:15.490 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-12 07:49:15.490 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx...
+2025-09-12 07:49:16.210 | INFO     | __main__:write_excel_file:80 - Writing Excel data to karlidean_data\sales.xlsx...
+2025-09-12 07:49:16.213 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to karlidean_data\sales.xlsx
+2025-09-12 07:49:16.213 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as sales.xlsx
+2025-09-12 07:49:16.299 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:15.488 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:49:16.300 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:15.490 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:16.301 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:15.490 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-12 07:49:16.302 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:15.490 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx...
+2025-09-12 07:49:16.302 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:16.210 | INFO     | __main__:write_excel_file:80 - Writing Excel data to karlidean_data\sales.xlsx...
+2025-09-12 07:49:16.303 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:16.213 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to karlidean_data\sales.xlsx
+2025-09-12 07:49:16.304 | WARNING  | __main__:run_script:109 - [karlidean_get_excel.py][stderr] 2025-09-12 07:49:16.213 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as sales.xlsx
+2025-09-12 07:49:16.304 | INFO     | __main__:run_script:113 - Completed karlidean_get_excel.py (exit code 0).
+2025-09-12 07:49:16.306 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, sales.xlsx
+2025-09-12 07:49:16.308 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: 
+2025-09-12 07:49:16.309 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:49:26.310 | INFO     | __main__:main:134 - (3/8) karlidean_get_json.py
+2025-09-12 07:49:26.311 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_json.py
+2025-09-12 07:49:26.312 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:26.971 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:26.971 | INFO     | __main__:main:96 - Starting JSON fetch demonstration...
+2025-09-12 07:49:26.971 | INFO     | __main__:fetch_json_file:55 - Fetching JSON data from https://brettonw.github.io/YaleBrightStarCatalog/bsc5.json...
+2025-09-12 07:49:28.076 | INFO     | __main__:write_json_file:79 - Writing JSON data to karlidean_data\stars.json...
+2025-09-12 07:49:29.238 | INFO     | __main__:write_json_file:83 - SUCCESS: JSON data written to karlidean_data\stars.json
+2025-09-12 07:49:29.250 | INFO     | __main__:fetch_json_file:59 - SUCCESS: JSON file fetched and saved as stars.json
+2025-09-12 07:49:29.321 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:26.969 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:49:29.321 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:26.971 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:29.323 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:26.971 | INFO     | __main__:main:96 - Starting JSON fetch demonstration...
+2025-09-12 07:49:29.324 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:26.971 | INFO     | __main__:fetch_json_file:55 - Fetching JSON data from https://brettonw.github.io/YaleBrightStarCatalog/bsc5.json...
+2025-09-12 07:49:29.324 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:28.076 | INFO     | __main__:write_json_file:79 - Writing JSON data to karlidean_data\stars.json...
+2025-09-12 07:49:29.325 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:29.238 | INFO     | __main__:write_json_file:83 - SUCCESS: JSON data written to karlidean_data\stars.json
+2025-09-12 07:49:29.326 | WARNING  | __main__:run_script:109 - [karlidean_get_json.py][stderr] 2025-09-12 07:49:29.250 | INFO     | __main__:fetch_json_file:59 - SUCCESS: JSON file fetched and saved as stars.json
+2025-09-12 07:49:29.326 | INFO     | __main__:run_script:113 - Completed karlidean_get_json.py (exit code 0).
+2025-09-12 07:49:29.328 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, sales.xlsx, stars.json
+2025-09-12 07:49:29.331 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: 
+2025-09-12 07:49:29.331 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:49:39.333 | INFO     | __main__:main:134 - (4/8) karlidean_get_text.py
+2025-09-12 07:49:39.334 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_get_text.py
+2025-09-12 07:49:39.335 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:40.051 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:40.051 | INFO     | __main__:main:97 - Starting text fetch demonstration...
+2025-09-12 07:49:40.051 | INFO     | __main__:fetch_txt_file:56 - Fetching text data from https://people.sc.fsu.edu/~jburkardt/datasets/text/genesis.txt...
+2025-09-12 07:49:41.082 | INFO     | __main__:write_txt_file:80 - Writing data to karlidean_data\genesis.txt...
+2025-09-12 07:49:41.087 | INFO     | __main__:write_txt_file:84 - SUCCESS: Data written to karlidean_data\genesis.txt
+2025-09-12 07:49:41.087 | INFO     | __main__:fetch_txt_file:60 - SUCCESS: Text file fetched and saved as genesis.txt
+2025-09-12 07:49:41.170 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:40.047 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:49:41.171 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:40.051 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:41.172 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:40.051 | INFO     | __main__:main:97 - Starting text fetch demonstration...
+2025-09-12 07:49:41.172 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:40.051 | INFO     | __main__:fetch_txt_file:56 - Fetching text data from https://people.sc.fsu.edu/~jburkardt/datasets/text/genesis.txt...
+2025-09-12 07:49:41.173 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:41.082 | INFO     | __main__:write_txt_file:80 - Writing data to karlidean_data\genesis.txt...
+2025-09-12 07:49:41.174 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:41.087 | INFO     | __main__:write_txt_file:84 - SUCCESS: Data written to karlidean_data\genesis.txt
+2025-09-12 07:49:41.175 | WARNING  | __main__:run_script:109 - [karlidean_get_text.py][stderr] 2025-09-12 07:49:41.087 | INFO     | __main__:fetch_txt_file:60 - SUCCESS: Text file fetched and saved as genesis.txt
+2025-09-12 07:49:41.176 | INFO     | __main__:run_script:113 - Completed karlidean_get_text.py (exit code 0).
+2025-09-12 07:49:41.178 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:49:41.180 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: 
+2025-09-12 07:49:41.181 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:49:51.183 | INFO     | __main__:main:134 - (5/8) karlidean_process_csv.py
+2025-09-12 07:49:51.186 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_csv.py
+2025-09-12 07:49:51.186 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:49:51.678 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:51.678 | INFO     | __main__:<module>:90 - Starting CSV processing...
+2025-09-12 07:49:51.817 | INFO     | __main__:process_csv_file:83 - Processed CSV file: karlidean_data\2019_NCAA_Womens_Volleyball.csv, Results saved to: karlidean_processed\home_court_advantage.txt
+2025-09-12 07:49:51.817 | INFO     | __main__:<module>:92 - CSV processing complete.
+2025-09-12 07:49:51.874 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:49:51.676 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:49:51.875 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:49:51.678 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:49:51.876 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:49:51.678 | INFO     | __main__:<module>:90 - Starting CSV processing...
+2025-09-12 07:49:51.876 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:49:51.817 | INFO     | __main__:process_csv_file:83 - Processed CSV file: karlidean_data\2019_NCAA_Womens_Volleyball.csv, Results saved to: karlidean_processed\home_court_advantage.txt
+2025-09-12 07:49:51.877 | WARNING  | __main__:run_script:109 - [karlidean_process_csv.py][stderr] 2025-09-12 07:49:51.817 | INFO     | __main__:<module>:92 - CSV processing complete.
+2025-09-12 07:49:51.878 | INFO     | __main__:run_script:113 - Completed karlidean_process_csv.py (exit code 0).
+2025-09-12 07:49:51.880 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:49:51.881 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: home_court_advantage.txt
+2025-09-12 07:49:51.882 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:50:01.884 | INFO     | __main__:main:134 - (6/8) karlidean_process_excel.py
+2025-09-12 07:50:01.885 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_excel.py
+2025-09-12 07:50:01.886 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:50:02.915 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:02.916 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-09-12 07:50:02.978 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
+2025-09-12 07:50:02.979 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-09-12 07:50:03.050 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:50:02.912 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:50:03.050 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:50:02.915 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:03.051 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:50:02.916 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-09-12 07:50:03.051 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:50:02.978 | INFO     | __main__:process_excel_file:70 - Processed Excel file: karlidean_data\sales.xlsx, Word count saved to: karlidean_processed\excel_sales_central_count.txt
+2025-09-12 07:50:03.051 | WARNING  | __main__:run_script:109 - [karlidean_process_excel.py][stderr] 2025-09-12 07:50:02.979 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-09-12 07:50:03.052 | INFO     | __main__:run_script:113 - Completed karlidean_process_excel.py (exit code 0).
+2025-09-12 07:50:03.053 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:50:03.053 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt
+2025-09-12 07:50:03.055 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:50:13.057 | INFO     | __main__:main:134 - (7/8) karlidean_process_json.py
+2025-09-12 07:50:13.058 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_json.py
+2025-09-12 07:50:13.060 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:50:13.557 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:13.557 | INFO     | __main__:<module>:122 - Starting star JSON processing...
+2025-09-12 07:50:13.728 | INFO     | __main__:process_json_file:115 - Processed JSON file: karlidean_data\stars.json, results saved to: karlidean_processed\stars_by_spectral_group.txt
+2025-09-12 07:50:13.729 | INFO     | __main__:<module>:124 - Processing complete.
+2025-09-12 07:50:13.781 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:50:13.555 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:50:13.782 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:50:13.557 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:13.783 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:50:13.557 | INFO     | __main__:<module>:122 - Starting star JSON processing...
+2025-09-12 07:50:13.784 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:50:13.728 | INFO     | __main__:process_json_file:115 - Processed JSON file: karlidean_data\stars.json, results saved to: karlidean_processed\stars_by_spectral_group.txt
+2025-09-12 07:50:13.785 | WARNING  | __main__:run_script:109 - [karlidean_process_json.py][stderr] 2025-09-12 07:50:13.729 | INFO     | __main__:<module>:124 - Processing complete.
+2025-09-12 07:50:13.785 | INFO     | __main__:run_script:113 - Completed karlidean_process_json.py (exit code 0).
+2025-09-12 07:50:13.787 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:50:13.788 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt
+2025-09-12 07:50:13.789 | INFO     | __main__:main:148 - Waiting 10 seconds before next script...
+2025-09-12 07:50:23.791 | INFO     | __main__:main:134 - (8/8) karlidean_process_text.py
+2025-09-12 07:50:23.794 | INFO     | __main__:run_script:83 - Initializing Script Run for karlidean_process_text.py
+2025-09-12 07:50:23.795 | INFO     | __main__:run_script:84 - Using CWD: C:\Repos\datafun-03-analytics
+2025-09-12 07:50:24.221 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:24.222 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-09-12 07:50:24.253 | INFO     | __main__:process_text_file:58 - Processed text file: karlidean_data\genesis.txt, Word count saved to: karlidean_processed\text_God_word_count.txt
+2025-09-12 07:50:24.253 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-09-12 07:50:24.285 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:50:24.220 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-09-12 07:50:24.286 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:50:24.221 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-12 07:50:24.286 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:50:24.222 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-09-12 07:50:24.287 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:50:24.253 | INFO     | __main__:process_text_file:58 - Processed text file: karlidean_data\genesis.txt, Word count saved to: karlidean_processed\text_God_word_count.txt
+2025-09-12 07:50:24.287 | WARNING  | __main__:run_script:109 - [karlidean_process_text.py][stderr] 2025-09-12 07:50:24.253 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-09-12 07:50:24.288 | INFO     | __main__:run_script:113 - Completed karlidean_process_text.py (exit code 0).
+2025-09-12 07:50:24.289 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_data => C:\Repos\datafun-03-analytics\karlidean_data :: 2019_NCAA_Womens_Volleyball.csv, genesis.txt, sales.xlsx, stars.json
+2025-09-12 07:50:24.290 | INFO     | __main__:list_dir_safe:61 - [post-check] karlidean_processed => C:\Repos\datafun-03-analytics\karlidean_processed :: excel_sales_central_count.txt, home_court_advantage.txt, stars_by_spectral_group.txt, text_God_word_count.txt
+2025-09-12 07:50:24.290 | INFO     | __main__:main:157 - All scripts ran successfully.
