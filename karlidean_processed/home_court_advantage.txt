@@ -1,0 +1,5 @@
+Home Court Advantage Analysis
+----------------------------------------
+Total matches: 4924
+Home team wins: 2853
+Home win %: 57.94%
